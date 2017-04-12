@@ -17,10 +17,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         btn.setOnClickListener(this);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
 
     @Override
     public void onClick(View view) {
